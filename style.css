@@ -1,0 +1,55 @@
+html {
+    background: url(img/1-web.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#mc-embedded-subscribe-form {
+    color: white;
+    font-family: PlayfairDisplay-Bold;
+}
+
+div.mc-field-group input {
+    border-radius: 40px;
+    border-color: #F5F5F5;
+    background: #F5F5F5;
+    padding: 20px;
+    font-family: Raleway-Regular;
+    border: 0 none;
+    color: black;
+}
+
+#mc_embed_signup input {
+    border: 2px solid #000000;
+    border: 0 none;
+}
+
+div.mc-field-group label {
+    font-family: Raleway-Regular;
+    font-weight: 500;
+    color: white;
+}
+
+input.button {
+    color: black !important;
+    font-weight: bold !important;
+    background-color: #69DEC2 !important;
+    width: 100% !important;
+    height: 40px !important;
+}
