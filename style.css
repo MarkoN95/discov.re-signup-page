@@ -1,5 +1,5 @@
 html {
-    background: url(img/1-web.jpg) no-repeat center center fixed; 
+    background: url(img/web-5.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,7 +22,16 @@ body {
 
 #mc-embedded-subscribe-form {
     color: white;
+    padding: 10px !important;
+    font-family: system-ui, Arial, sans-serif;
+}
+
+h1 {
     font-family: PlayfairDisplay-Bold;
+}
+
+div.mc-field-group {
+    width: 100% !important;
 }
 
 div.mc-field-group input {
@@ -30,7 +39,7 @@ div.mc-field-group input {
     border-color: #F5F5F5;
     background: #F5F5F5;
     padding: 20px;
-    font-family: Raleway-Regular;
+    font-family: system-ui, Arial, sans-serif;
     border: 0 none;
     color: black;
 }
@@ -41,15 +50,42 @@ div.mc-field-group input {
 }
 
 div.mc-field-group label {
-    font-family: Raleway-Regular;
+    font-family: system-ui, Arial, sans-serif;
     font-weight: 500;
     color: white;
 }
 
+p {
+    font-family: system-ui, Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 input.button {
-    color: black !important;
+    color: white !important;
     font-weight: bold !important;
-    background-color: #69DEC2 !important;
+    background-color: #ff4040 !important;
     width: 100% !important;
     height: 40px !important;
+}
+
+h1 {
+    text-align: center !important;
+    width: 100%;
+}
+
+.mc-field-group, .mce-responses, .clear {
+    max-width: 350px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+}
+
+#mce-success-response, #mce-error-response {
+    background-color: rgba(255,255,255,0.85);
+    padding: 0.5em 0.7em !important;
+    margin: 0 0 1em 0 !important;
+    width: auto !important;
+    border-radius: 3px;
+    color: black;
 }
